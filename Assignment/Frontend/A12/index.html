@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-12</title>
+    <style>
+        p {
+            background-color: rgb(86, 86, 234);
+            font-size: 20px;
+            color: white;
+            padding: 20px;
+        }
+
+        button {
+            width: 150px;
+            height: 30px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 10px;
+
+
+        }
+
+        button:hover {
+            background-color: azure;
+            color: rgb(226, 92, 43);
+            cursor: pointer;
+
+            border: 2px solid black;
+        }
+
+        button:active {
+            background-color: coral;
+            color: black;
+        }
+
+        button:active::before {
+            content: "<<< ";
+        }
+
+        button:active::after {
+            content: " >>>";
+        }
+
+        button:focus {
+            color: brown;
+        }
+
+        input {
+            width: 200px;
+            height: 20px;
+        }
+
+        input:focus {
+            background-color: black;
+            color: white;
+        }
+
+        input:hover {
+            cursor: pointer;
+        }
+
+
+        @media (max-width: 768px) {
+            p {
+                font-size: 16px;
+                color: blue;
+            }
+        }
+
+        @media (max-width: 480px) {
+            p {
+                font-size: 14px;
+                color: red;
+            }
+        }
+
+        a:hover {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        This is a paragraph that gives information about the content of Media Queries and Pseudo Classes/Elements Demo.
+    </p>
+
+    <input type="text" />
+    <button>Submit</button>
+    <a href="https://learning.slainstitute.com/">SLA</a>
+</body>
+
+</html>

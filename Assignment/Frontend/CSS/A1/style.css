@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header nav a {
+    color: red;
+}
+
+main section h1{
+    background-color: orange;
+}
+
+footer section p{
+    background-color: green;
+}

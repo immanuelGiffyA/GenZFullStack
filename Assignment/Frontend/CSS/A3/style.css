@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul{
+    display: flex;
+    justify-content:end;
+    gap: 50px;
+}
+
+nav ul {
+    list-style: none;
+    
+}
+
+li a { 
+    text-decoration: none;
+}
+header img{
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}

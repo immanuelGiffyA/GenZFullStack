@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+section{
+    margin: 20px;
+    background-color: white;
+    padding-left: 20px;
+    border: 20px solid black;
+    background-image: url("./img.css");
+    width: 200px;
+    height: 140px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
