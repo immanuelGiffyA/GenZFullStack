@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<script src="./day25.js"> </script>
 
 <body>
-    <input type="text" onchange="sayHello()">
+    <input type="text" oninput="sayHello()">
     <!-- function expression  -->
     <button onclick="sayHello()">click me</button>
     <form action="" id="loginForm">
-        <input type="text" placeholder="email" style="background-color: red;"><br>
-        <input type="text" placeholder="password" style="background-color:yellow;"><br>
+        <input type="text" placeholder="email" style="background-color: red;" name="email"><br>
+        <input type="text" placeholder="password" style="background-color:yellow;" name="password"><br>
 
         <button type="submit" style="background-color: red; width: 170px;">sumbit</button>
     </form>
-
+    
+<script src="./day25.js"> </script>
 </body>
 
-</html>
+</html> 

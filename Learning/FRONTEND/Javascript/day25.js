@@ -10,4 +10,5 @@ function click(e){
     e.preventDefault();
     console.log(e);
     
+    alert(`your email:${e.target.email.value} and password:${e.target.password.value}`)    
 }
