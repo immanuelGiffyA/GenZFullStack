@@ -50,3 +50,19 @@ setTimeout(()=>{
     console.log("Be well");
     
 },1000);
+
+// promise
+let p= new Promise((resolve,reject)=>{
+    console.log('pending')
+    let isloggedIn = false
+    if(isloggedIn){
+        resolve('welcome back')
+    }else{
+        reject('please login first')
+    }
+})
+ p.then((data)=>{
+    console.log(data);
+})  .catch((err)=>{
+    console.log(err);
+})
