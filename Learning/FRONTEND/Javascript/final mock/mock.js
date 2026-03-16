@@ -18,7 +18,7 @@
 // }
 // console.log(count3([1,3,4,3,5,3]));
 
-// // Reverse the array [10, 20, 30].
+//  
 // function reverse(arr) {
 //     let reversed = [];
 //     for (let i = arr.length - 1; i >= 0; i--) {
@@ -30,17 +30,17 @@
 // console.log(reverse([10, 20, 30]));
 
 // // Check if a number is positive or negative.
- 
+
 // function findPositiveNegative(num){
 //  if(num>0){
-     
+
 //      console.log("positive");
 //  }
 // else {
 //     console.log("negative");
-    
+
 // }
-    
+
 // }
 
 // findPositiveNegative(-78)
@@ -60,11 +60,11 @@
 // function checkVowel(char){
 //     if(char==='a'||char==='e'||char==='i'||char==='o'||char==='u'){
 //         console.log("vowel");
-        
+
 //     }
 //     else{
 //         console.log("no vowel");
-        
+
 //     }
 // }
 // checkVowel("a")
@@ -96,11 +96,11 @@
 // function vote(age){
 //     if(age>=18){
 //         console.log("your age is:"+age+"=>"+"so you can eligible to vote");
-        
+
 //     }
 //     else{
 //         console.log("your age is :"+age+""+"so you are not eligible to vote");
-        
+
 //     }
 // }
 // vote(20)
@@ -241,11 +241,11 @@
 // function greaterNum(num1,num2){
 // if(num1>num2){
 //     console.log(num1,"is greater");
-    
+
 // }
 // else{
 //     console.log(num2,"is greater");
-    
+
 // }
 // }
 // greaterNum(8,3)
@@ -290,7 +290,7 @@
 //     let count=[];
 //     for (let i = 0; i < arr.length; i--) {
 //         count.push(arr[i]);
-        
+
 //     }
 // return count;
 // }
@@ -303,7 +303,7 @@
 // console.log("vote")
 // }else{
 //     console.log("cannot vote");
-    
+
 // }
 
 // }
@@ -340,11 +340,11 @@
 // function checkDivisible(num) {
 //     if (num%5===0) {
 //         console.log("dividible by 5");
-        
-        
+
+
 //     }else{
 //         console.log("not divisible by 5");
-        
+
 //     }
 
 // }
@@ -353,5 +353,49 @@
 
 
 
+function findZeros(arr) {
+    let count = []
+    for (i = 0; i <= arr.length; i++) {
+        if (arr[i] === 0) {
+            count[count.length] = arr[i]
+        }
+    }
+    console.log(count.length)
+}
+findZeros([1, 2, 0, 0,0])
 
-// 
+
+function findEvenNum(nums){
+     count=[]
+     for (i=0;i<nums.length;i++){
+        if (nums%2===0){
+
+        }
+    }
+}
+
+
+
+
+function divisibleBy(arr){
+    let count=[]
+    for(let i=0; i<arr.length;i++){
+        if(arr[i]% 5===0){
+            count.push(arr[i])
+        }
+    }
+    return count;
+}
+console.log(divisibleBy([5,1]));
+
+function count (arr){
+    let count3=0
+    for(i=0; i<=arr.length;i++){
+        if(arr[i]===3){
+            count3++
+        }
+        return count3
+    }    
+}console.log(divisibleBy([1,3,4,3,5,3]));
+
+
