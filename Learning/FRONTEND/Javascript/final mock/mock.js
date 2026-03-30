@@ -353,49 +353,150 @@
 
 
 
-function findZeros(arr) {
-    let count = []
-    for (i = 0; i <= arr.length; i++) {
-        if (arr[i] === 0) {
-            count[count.length] = arr[i]
-        }
-    }
-    console.log(count.length)
+// function findZeros(arr) {
+//     let count = []
+//     for (i = 0; i <= arr.length; i++) {
+//         if (arr[i] === 0) {
+//             count[count.length] = arr[i]
+//         }
+//     }
+//     console.log(count.length)
+// }
+// findZeros([1, 2, 0, 0,0])
+
+
+// function findEvenNum(nums){
+//      count=[]
+//      for (i=0;i<nums.length;i++){
+//         if (nums%2===0){
+
+//         }
+//     }
+// }
+
+
+
+
+// function divisibleBy(arr){
+//     let count=[]
+//     for(let i=0; i<arr.length;i++){
+//         if(arr[i]% 5===0){
+//             count.push(arr[i])
+//         }
+//     }
+//     return count;
+// }
+// console.log(divisibleBy([5,1]));
+
+// function count (arr){
+//     let count3=0
+//     for(i=0; i<=arr.length;i++){
+//         if(arr[i]===3){
+//             count3++
+//         }
+//         return count3
+//     }    
+// }console.log(divisibleBy([1,3,4,3,5,3]));
+
+
+// Print numbers from 1 to 10.
+
+// Count how many times 3 appears in [1,3,4,3,5,3].
+
+
+
+// Check if a number is positive or negative.
+
+// Find the sum of [2, 4, 6].
+
+// Print numbers from 10 to 1.
+
+// Check if "a" is a vowel or consonant.
+
+// Count how many numbers are in [4, 6, 8, 10].
+
+// Find the largest number in [3, 7, 1].
+
+// Check if a person is eligible to vote (age ≥ 18).
+
+// Add 5 to each element of [1, 2, 3].
+
+// Reverse the string "hello".
+
+// Count how many even numbers are in [1,2,3,4,5,6].
+
+// Find the value of price from { product: "Book", price: 50 }.
+
+// Change city in { name: "Ravi", city: "Chennai" } to "Madurai".
+
+// Check if 10 is divisible by 5.
+
+// Print each element of [7, 8, 9].
+
+// Find the smallest number in [12, 4, 6].
+
+// Count how many properties are in { a:1, b:2, c:3 }.
+
+// Create an array with only odd numbers from [1,2,3,4,5].
+
+// Check if "name" exists in { name:"Anu", age:20 }.
+
+// Find the sum of numbers from 1 to 5.
+
+// Reverse [5, 15, 25, 35].
+
+// Count how many times "a" appears in "banana".
+
+// Find the greater number between 8 and 3.
+
+// Print all even numbers between 1 and 10.
+
+// Find the smallest number in [9, 3, 7, 2].
+
+// Reverse the string "world".
+
+// Reverse the string "world".
+
+let arr = "world";
+let reversed = "";
+for (let i = arr.length -1; i>=0; i--){
+    reversed = reversed + arr[i]
 }
-findZeros([1, 2, 0, 0,0])
+console.log([reversed]);
+
+//  Find the smallest number in [9, 3, 7, 2].
+
+let arr1 = [9, 3, 7, 2];
+let small = arr1[0]
+for (let i =1; i<arr1.length; i++){
+    if(small>arr1[i]){
+        small = arr1[i]
+    }
+}
+console.log(small);
 
 
-function findEvenNum(nums){
-     count=[]
-     for (i=0;i<nums.length;i++){
-        if (nums%2===0){
+// Print all even numbers between 1 and 10.
 
-        }
+for (let i=1; i<=10; i++){
+    if(i%2==0){
+        console.log(i);
     }
 }
 
+// Find the greater number between 8 and 3.
+let num1 = 8;
+let num2 = 3;
+if(num1>num2){
+    console.log(num1,"is greater");
+}               
 
 
 
-function divisibleBy(arr){
-    let count=[]
-    for(let i=0; i<arr.length;i++){
-        if(arr[i]% 5===0){
-            count.push(arr[i])
-        }
-    }
-    return count;
+// Reverse [5, 15, 25, 35].
+let arr2 = [5, 15, 25, 35]; ujm
+let reversedArr = [];
+for (let i = arr2.length -1; i>=0; i--){
+    reversedArr.push(arr2[i])
 }
-console.log(divisibleBy([5,1]));
-
-function count (arr){
-    let count3=0
-    for(i=0; i<=arr.length;i++){
-        if(arr[i]===3){
-            count3++
-        }
-        return count3
-    }    
-}console.log(divisibleBy([1,3,4,3,5,3]));
-
-
+console.log(reversedArr);
