@@ -82,3 +82,5 @@ function addEvent(nums){
     return nums
 }
 console.log(addEvent([2,4,6]));
+
+
