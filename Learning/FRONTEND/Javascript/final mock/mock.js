@@ -6,7 +6,7 @@
 // }
 // num(10)
 
-// // Count how many times 3 appears in [1,3,4,3,5,3]
+    // // Count how many times 3 appears in [1,3,4,3,5,3]
 // function count3(arr){
 //     let count=0;
 //  for(i=0;i<=arr.length;i++){

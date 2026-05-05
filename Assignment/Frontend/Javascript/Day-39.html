@@ -7,6 +7,14 @@
 </head>
 <body>
     <section>
+        <button onclick="increment()">click to increase</button>
+        <button onclick="decrement()">click to decrement</button>
+        <button onclick="reset()">Reset</button>
+        <button onclick="changeBackground()" id="toggle">Change Color</button>
+        <p id="count">1</p>
+    </section>
+    <!-- <section>
+
         <h1>Contact List</h1>
         <p>This is your login page </p>
         <form id="contact list ">
@@ -19,8 +27,34 @@
            <button type="Sumbit">Submit</button><br><br>
            <button type="reset">Reset</button><br>
         </form>
-    </section>
-    <script src="./Day-39.js"></script>
+    </section> -->
+
+    <script>
+          const changeBackground=
+        
+        function increment(){
+            let count = document.getElementById('count');
+            Number(count.textContent++)
+        }
+
+        function decrement(){
+            let count = document.getElementById('count');
+            Number(count.textContent--)
+        }
+
+        function reset(){
+            let count = document.getElementById('count')
+            count.textContent=0
+        }
+
+        function changeBackground(){
+         
+        }
+
+    
+
+
+    </script>
 </body>
 </html>
 

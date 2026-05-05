@@ -1,12 +1,16 @@
-let program = "start";
+// const section = document.querySelector("section");
 
 
-if (program === "start") {
-    setTimeout(() => {
-        console.log(program);
-       setTimeout(()=>{
-        console.log("ended");
-        
-       },2000)
-    }, 1000);
-}
+// const h1 = document.createElement("h1");
+// h1.textContent = "This is Gif";
+// section.appendChild(h1);
+
+
+// let btn = document.createElement("button");
+// btn.textContent = "Click"
+// btn.addEventListener("click", function() {
+//     alert("You Clicked Me");
+// }   
+// );
+// section.appendChild(btn);
+
